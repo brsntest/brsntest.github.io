@@ -1,7 +1,8 @@
 ---
-layout: post
-title: OSCE Prep - Vulnserver KSTET Using Win32 API And 32 Bytes Of Shellcode
-categories: [OSCE]
+title: "OSCE Prep - Vulnserver KSTET Using Win32 API And 32 Bytes Of Shellcode"
+date: 2020-07-04T15:34:30-04:00
+categories:
+  - OSCE
 ---
 
 While preparing for my upcoming OSCE exam I have spent many hours exploiting Vulnserver's various vulnerable functions in different ways. In this post, I wanted to highlight a technique I first came across on a Hack The Box write-up of the BigHead vulnerable machine by mislusnys, which can be found [here](http://mislusnys.github.io/post/htb-bighead/). All credit for this technique goes to them, I am merely using it to exploit a similarly small buffer space without making use of an egghunter or re-using sockets.
